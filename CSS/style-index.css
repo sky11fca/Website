@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Greek-shit;
+    src: url("../Data/font/Greek-Freak.ttf");
+}
+
+@font-face {
+    font-family: ConText;
+    src: url("../Data/font/EdgecuttingLiteMedium.ttf");
+}
+
+h1{
+    font-family: Greek-shit;
+    color: red
+}
+
+a{
+    font-family: ConText;
+    color: black;
+    font-style:unset;
+}
+
+pre{
+    font-family: ConText;
+    color: blue
+}
