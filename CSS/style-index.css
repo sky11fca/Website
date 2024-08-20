@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background: url("../Data/img/Hell.png");
 }
 
 @font-face {
@@ -17,20 +18,27 @@
     min-height: 40px;
     padding: 10px 0px;
     border: 5px red solid;
+    background: white;
 }
 
 #home{
     float: left;
     font-family: Greek-shit;
-    margin:0;
-    padding-bottom: 0;
-    height: 118px;
-    width: 167px;
-    background: url("../Data/img/Help.png") no-repeat;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 0;
+    background: white;
+}
+#home h1{
+    background: white;
+    padding-left: 10;
 }
 
 #home a{
     color:red;
+    text-decoration: none;
+    background: white;
+    padding-left: 15;
 }
 
 #menu{
@@ -41,10 +49,35 @@
     background-color: aqua;
 }
 #menu li{
-    float:inline-end;
-    font-family: ConText;
+    float: inline-end;
+    font-family: Greek-shit;
+    text-decoration: none;
     margin-top: 19px;
     padding: 0px 15px 0px !important;
+    background: white;
+    color: red;
+}
+
+#menulist a{
+    background: white;
+    color: red;
+    text-decoration: none;
+}
+
+#text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#text p{
+    margin-top: 100px;
+    color: red;
+    font-family: Greek-shit;
+    background: rgba(0, 0, 0, 0);
+}
+#text pre{
+    color: white;
 }
 
 /* ul{

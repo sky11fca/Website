@@ -1,0 +1,10 @@
+*{
+    background: url("../Data/img/I\ have\ this\ saved\ in\ my\ ssd\ for\ no\ reason.png");
+    background-color: black;
+}
+
+a{
+    float:right;
+    color: white;
+    text-decoration: none;
+}
