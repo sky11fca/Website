@@ -1,2 +1,1 @@
-alert("This is your mistake!")
-console.log("SUp! M8ss!!")
+console.log("sup m8s!!")

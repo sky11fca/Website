@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background: url("../Data/img/Hell.png");
+    /* background: url("../Data/img/Hell.png"); */
 }
 
 @font-face {
@@ -68,15 +68,70 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background: url("../Data/img/Hell.png");
 }
 
 #text p{
-    margin-top: 100px;
+    padding-top: 100px;
     color: red;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
     font-family: Greek-shit;
     background: rgba(0, 0, 0, 0);
 }
 #text pre{
+    color: white;
+    padding-bottom: 100px;
+}
+
+#contents h1{
+    font-family: Greek-shit;
+    text-decoration:underline;
+    font-size: 20;
+}
+
+#contents #cont{
+    font-family: ConText;
+}
+
+#content1{
+    height: 400px;
+    background-color: red;
+    border: 5px white solid;
+    color: white;
+}
+
+#content1 img{
+    float:right;
+    padding-right: 100px;
+}
+#content2{
+    height: 400px;
+    background-color: white;
+    border: 5px red solid;
+    color: red;
+    padding-left: 1250px;
+}
+
+#content2 img{
+
+    padding-left: 100px;
+}
+#content3{
+    height: 400px;
+    background-color: red;
+    border: 5px white solid;
+    color: white;
+}
+
+#content3 img{
+    float:right;
+    padding-right: 100px;
+}
+#rights{
+    height: 150px;
+    background-color: rgb(36, 36, 36);
+    padding-top: 100px;
     color: white;
 }
 

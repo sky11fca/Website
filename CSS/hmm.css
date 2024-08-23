@@ -1,0 +1,26 @@
+body{
+    background-color: violet;
+}
+
+body a{
+    color: white;
+    float: right;
+    text-decoration: none;
+}
+
+body .square{
+    background-color: purple;
+    height: 900px;
+    width: 1600px;
+    margin-left: 160px;
+    margin-top: 35px;
+}
+
+body .square p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: xx-large;
+    margin-top: 150px;
+}
